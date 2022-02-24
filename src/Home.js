@@ -15,7 +15,7 @@ function Home() {
         <div className="home__row">
           <Product
             id="12232212"
-            title="The lean startup"
+            title="The Lean Startup: How Constant Innovation Creates Radically Successful Business Paperback"
             price={29.99}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
             rating={5}
@@ -49,6 +49,15 @@ function Home() {
             price={598.99}
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
             rating={5}
+          />
+        </div>
+        <div className="home__row">
+          <Product
+            id="90829332"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            price={1094.98}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
       </div>
