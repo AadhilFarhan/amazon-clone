@@ -10,10 +10,10 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route
-            path="/checkout"
-            element={[<Header />, <h1>I am a checkout page</h1>]}
-          />
+          <Route path="/checkout">
+            <Header />
+            <Checkout />
+          </Route>
           <Route path="/" element={[<Header />, <Home />]} />
         </Routes>
       </div>
